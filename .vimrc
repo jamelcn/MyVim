@@ -1,7 +1,7 @@
 
 " Maintainer:	Jamel Chen
 " Last change:	2012-09-15
-"
+"	Testing...
 " To use it, copy it to
 "     for Unix and OS/2:  ~/.vimrc
 "	      for Amiga:  s:.vimrc
