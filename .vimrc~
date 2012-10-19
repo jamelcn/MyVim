@@ -79,10 +79,6 @@ Bundle 'xolox/vim-shell'
 Bundle 'L9'
 "buffer/file/command/tag/etc explorer with fuzzy matching
 Bundle 'FuzzyFinder'
-"Modified libstdc++ headers for use with ctags
-Bundle 'tags-for-std-cpp-STL-streams-...'
-"C/C++ omni-completion with ctags database
-Bundle 'OmniCppComplete'
 
 filetype plugin indent on " required!
 " Bundle End
@@ -472,8 +468,6 @@ if has("win32")
 	let Tlist_Ctags_Cmd = 'C:\Windows\System32\ctags.exe'
 endif
 
-"Settings for C++ STL tags references
-set tags+=~/.vim/bundle/tags-for-std-cpp-STL-streams-.../tags
 
 "Grep Settings 
 nnoremap <silent> <F3> :Grep<cr>
