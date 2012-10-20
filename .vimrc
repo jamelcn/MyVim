@@ -219,6 +219,8 @@ set guioptions-=L
 set guioptions-=r
 "Remove the gui tabs
 set guioptions-=e
+"Set indent length
+set sw=4 sts=4 ts=4
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -258,8 +260,8 @@ if has("gui_running")
 ""colorscheme moria
 ""colorscheme mustang
 ""colorscheme wombat
-colorscheme xoria256
-""colorscheme zenburn
+""colorscheme xoria256
+colorscheme zenburn
 ""colorscheme desert
 endif
 
@@ -288,9 +290,13 @@ if ! has("gui_running")
 ""colorscheme moria
 ""colorscheme mustang
 ""colorscheme wombat
-""colorscheme xoria256
-colorscheme zenburn
+colorscheme xoria256
+""colorscheme zenburn
 ""colorscheme desert
+
+"Setting cursor color in non gui terminal
+hi cursor guibg=#ff00000
+
 endif
 " -----------Candidate colorschemes-----------
 
@@ -308,7 +314,7 @@ set nofoldenable
 
 function ConsoleEditMode()
 	set autoindent
-	set sw=4 sts=4
+	set sw=4 sts=4 
 	set lines=8 columns=170
 	winpos 0 600
 endfunction
