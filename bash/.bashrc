@@ -24,6 +24,6 @@ export JAVA_HOME=/home/jamac/Developer/java/jdk1.7.0_15
 export CLASSPATH=.:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$ANT_ROOT:$ADB_PATH:$ANDROID_SDK/tools:$JAVA_HOME/bin:$JAVA_HOME/jre/bin
 
--- SHELLBIN目录用于放置自己常用的可执行shell脚本程序
+#SHELLBIN目录用于放置自己常用的可执行shell脚本程序
 SHELLBIN=/home/jamac/Developer/shellbin
 export PATH=$PATH:$SHELLBIN
