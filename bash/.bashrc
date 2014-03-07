@@ -28,3 +28,4 @@ export PATH=$PATH:$ANT_ROOT:$ADB_PATH:$ANDROID_SDK/tools:$JAVA_HOME/bin:$JAVA_HO
 SHELLBIN=/home/jamac/shellbin
 export PATH=$PATH:$SHELLBIN
 alias tmux='tmux -2'
+alias gdb='gdb -tui'
