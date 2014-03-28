@@ -393,6 +393,7 @@ colorscheme jellybeans
 ""colorscheme xoria256
 "colorscheme zenburn
 ""colorscheme desert
+colorscheme gentooish
 
 "Setting cursor color in non gui terminal
 hi cursor guibg=#ff00000
@@ -612,6 +613,7 @@ language message zh_CN.utf-8
 set fileencodings=utf-8,GB2312,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 let g:airline_powerline_fonts=1
 let g:airline_theme="zenburn"
+let g:airline_theme="kalisi"
 set laststatus=2
 
 " Settings for Autopairs
