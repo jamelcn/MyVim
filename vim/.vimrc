@@ -42,7 +42,7 @@ Bundle 'gmarik/vundle'
 "Bundle 'AutoComplPop'
 Bundle 'Shougo/neocomplete.vim'
 Bundle 'Shougo/neosnippet'
-Bundle 'UltiSnips'
+"Bundle 'UltiSnips'
 Bundle 'The-NERD-tree'
 Bundle 'Auto-Pairs'
 Bundle 'The-NERD-Commenter'
@@ -104,7 +104,7 @@ Bundle 'a.vim'
 "Bundle 'luainspect.vim'
 Bundle 'vim-misc'
 "Bundle 'vim-multiple-cursors'
-"Bundle 'lua.vim'
+Bundle 'lua.vim'
 "Bundle 'lua-support'
 "Bundle 'close-duplicate-tabs'
 "Bundle 'Word-Fuzzy-Completion'
@@ -129,7 +129,7 @@ Bundle 'gf-ext'
 Bundle 'tacahiroy/ctrlp-funky'
 Bundle 'ag.vim'
 Bundle 'Tabular'
-Bundle 'Python-mode-klen'
+"Bundle 'Python-mode-klen'
 Bundle 'vimroom.vim'
 Bundle 'repeat.vim'
 Bundle 'vcscommand.vim'
@@ -360,7 +360,7 @@ colorscheme eclipse
 ""colorscheme xoria256
 ""colorscheme zenburn
 ""colorscheme desert
-colorscheme darkspectrum
+"colorscheme darkspectrum
 "colorscheme monokai
 "colorscheme seoul256
 endif
@@ -614,6 +614,7 @@ set fileencodings=utf-8,GB2312,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 let g:airline_powerline_fonts=1
 let g:airline_theme="zenburn"
 let g:airline_theme="kalisi"
+let g:airline_theme="tomorrow"
 set laststatus=2
 
 " Settings for Autopairs
@@ -622,6 +623,11 @@ let g:AutoPairsFlyMode=1
 " Settings for yankring
 let g:yankring_replace_n_nkey = '<M-y>'
 let g:yankring_replace_n_pkey = '<M-Y>'
+
+" Settings for lua
+"let g:lua_complete_keywords = 0
+"let g:lua_complete_globals = 0
+let g:lua_complete_dynamic = 0
 
 if has("win32")
 	" Settings for php manual
